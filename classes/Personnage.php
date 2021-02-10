@@ -33,7 +33,7 @@ class Personnage {
 
     public static function getNumInstances() {
         // Complétez le code ici
-        return
+        return self::$numInstances;
     }
 
     // Méthode permettant de déplacer le personnage vers la droite
